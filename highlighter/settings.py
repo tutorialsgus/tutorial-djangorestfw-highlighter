@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',  # adicionado app da lib do rest
+    'snippets.apps.SnippetsConfig',  # adicionado app criado... SnippetsConfig é uma classe que herda de AppConfig
 ]
 
 MIDDLEWARE = [
